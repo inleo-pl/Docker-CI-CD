@@ -16,7 +16,10 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 ## Agenda
 
 1. Co to jest Continous Deployment i Continuous Integration, po co wymyślono CI/CD
+    * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/01-Polaczenie)
+    * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/02-Przygotowanie-klastra)
 2. Jenkins
+    * [03 - Instalacja Jenkinsa](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/03-Instalacja-Jenkinsa)
 3. Gitlab + pętla CI/CD. Jenkins BuildStep Plugin
 4. Jenkins Pipelines
 5. Jenkins Slaves
