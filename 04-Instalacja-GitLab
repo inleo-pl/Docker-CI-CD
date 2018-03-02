@@ -6,6 +6,6 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y curl openssh-server ca-certificates
 sudo apt-get install -y postfix
-curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash 
+sudo curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash 
 sudo EXTERNAL_URL="http://[nazwahosta]" apt-get install gitlab-ee
 
