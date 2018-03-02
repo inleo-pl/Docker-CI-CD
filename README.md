@@ -5,9 +5,22 @@ Repozytorium plików do jedniodniowego warsztatu Docker Continuous Integration (
 
 ## Dla kogo?
 
+Szkolenie skierowane jest do programistów jak i administratorów chcących poznać zasady współpracy narzędzi CI/CD (Jenkins) z ekosystemem Docker oraz poznać praktyczną implementację metodologii Infrastructure As a Code.
+
 ## Co oferujemy?
 
+Szkolenie porusza zagadnienia związane z integracją platform git (Gitab) i CI/CD (Jenkins) z platformą Docker. Szkolenie porusza tematy związane z automatyzacją uruchamiania mikroserwisów i automatyczną budową usług na podstawie danych zawartych w repozytorium kodu (git). Poruszone zostają też tematy integracji Jenkinsa z platformą Docker Swarm.
+
+Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uczestnik musi posiadać również elementarną wiedzę na temat systemów kontroli wersji opartych o git oraz zagadnień dotyczących sieci TCP/IP.
+
 ## Agenda
+
+1. Co to jest Continous Deployment i Continuous Integration, po co wymyślono CI/CD
+2. Jenkins
+3. Gitlab + pętla CI/CD. Jenkins BuildStep Plugin
+4. Jenkins Pipelines
+5. Jenkins Slaves
+6. Swarm Mode i integracja z Jenkins
 
 ## Kiedy, co i jak?
 
