@@ -21,6 +21,7 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 2. Jenkins
     * [03 - Instalacja Jenkinsa](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/03-Instalacja-Jenkinsa)
 3. Gitlab + pętla CI/CD. Jenkins BuildStep Plugin
+    * [04 - Zalozenie GitLab](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/04-Zalozenie-GitLab)
 4. Jenkins Pipelines
 5. Jenkins Slaves
 6. Swarm Mode i integracja z Jenkins
