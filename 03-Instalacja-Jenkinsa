@@ -7,12 +7,10 @@ sudo apt-get update
 sudo apt-get install jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
-sudo ufw allow 8080
-sudo ufw status
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-http://adreshosta:8080
+http://jenkins:8080
 
 # Kontener
 
