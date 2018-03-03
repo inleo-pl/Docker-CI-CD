@@ -9,6 +9,6 @@ sudo apt-get install -y postfix
 sudo curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash 
 sudo EXTERNAL_URL="http://[nazwahosta]" apt-get install gitlab-ee
 
-http://[nazwahosta]
+http://gitlab
 
 Admin -> License -> Upload New License
