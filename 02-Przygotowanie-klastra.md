@@ -1,4 +1,4 @@
-Należy wykonać dla dwóch węzłów klastra (manager01, worker01):
+Należy wykonać dla dwóch węzłów klastra (manager01, worker01) oraz serwerze jenkins:
 ```
 sudo apt-get update
 sudo apt-get -y upgrade
