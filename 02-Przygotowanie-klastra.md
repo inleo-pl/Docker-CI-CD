@@ -37,3 +37,7 @@ Wejdz na vizulizera:
 ```
 http://manager01:8090
 ```
+Uruchamienie lokalnego Docker Registry:
+```
+sudo docker run -d -p 5000:5000 --name registry registry
+```
