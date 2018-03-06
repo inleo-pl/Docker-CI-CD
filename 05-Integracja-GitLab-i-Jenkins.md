@@ -3,7 +3,7 @@ Pobranie token z Gitlab do Jenkinsa:
 http://gitlab
 
 Admin Area -> Users -> jenkins -> Impersonation Tokens
-  -> Skopjuj token
+  -> Skopiuj token
 ```
 Instalacja wtyczki GitLab w Jenkinsie:
 ```
