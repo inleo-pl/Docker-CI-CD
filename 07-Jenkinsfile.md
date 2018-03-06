@@ -1,3 +1,5 @@
+Tworzymy w repozytorium plik .Jenkinsfile:
+```
 #!/usr/bin/env groovy
 
 pipeline {
@@ -31,3 +33,4 @@ pipeline {
         }
     }
 }
+```
