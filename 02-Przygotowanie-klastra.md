@@ -37,7 +37,3 @@ Wejdz na vizulizera:
 ```
 http://manager01:8090
 ```
-Uruchamienie lokalnego Docker Registry:
-```
-sudo docker service create --publish=5000:5000 --constraint=node.role==manager --name=registry registry
-```
