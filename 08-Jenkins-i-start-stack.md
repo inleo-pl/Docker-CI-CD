@@ -32,3 +32,7 @@ Wykonaj git push na gitlab w katalogu repozytorium:
 ```
 git add . && git commit -m "change" && git push -u origin master
 ```
+Powołaj vizualizer:
+```
+sudo docker service create --name=viz --publish=8090:8080/tcp --constraint=node.role==manager -e DOCKER_HOST="10.0.0.3:4243"   dockersamples/visualizer
+```
