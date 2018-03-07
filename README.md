@@ -16,16 +16,19 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 ## Agenda
 
 1. Co to jest Continous Deployment i Continuous Integration, po co wymyślono CI/CD
-    * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/01-Polaczenie)
-    * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/02-Przygotowanie-klastra)
+    * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/01-Polaczenie.md)
+    * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/02-Przygotowanie-klastra.md)
 2. Jenkins
-    * [03 - Instalacja Jenkinsa](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/03-Instalacja-Jenkinsa)
-3. Gitlab + pętla CI/CD. Jenkins BuildStep Plugin
-    * [04 - Instalacja i konfiguracja GitLab](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/04-Instalacja-i-konfiguracja-GitLab)
-    * [05 - Integracja GitLab i Jenkins](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/05-Integracja-GitLab-i-Jenkins)
-4. Jenkins Pipelines
-5. Jenkins Slaves
-6. Swarm Mode i integracja z Jenkins
+    * [03 - Instalacja Jenkinsa](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/03-Instalacja-Jenkinsa.md)
+3. GitLab
+    * [04 - Instalacja i konfiguracja GitLab](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/04-Instalacja-i-konfiguracja-GitLab.md)
+4. Integracja GitLab i Jenkins
+    * [05 - Integracja GitLab i Jenkins](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/05-Integracja-GitLab-i-Jenkins.md)
+5. Intrgracja Jenkins z Docker Hub
+    * [06 - Integracja Jenkins i Docker Hub](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/06-Integracja-Jenkins-i-Docker-Hub.md)
+6. Intrgracja Jenkins z Docker Swarm
+    * [07 - Integracja Jenkins z Docker Swarm](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/07-Integracja-Jenkins-z-Docker-Swarm.md)
+    * [08 - Jenkins i start stack](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/08-Jenkins-i-start-stack.md)
 
 ## Kiedy, co i jak?
 
