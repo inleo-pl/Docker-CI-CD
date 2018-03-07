@@ -25,7 +25,7 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 4. Integracja GitLab i Jenkins
     * [05 - Integracja GitLab i Jenkins](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/05-Integracja-GitLab-i-Jenkins.md)
 5. Intrgracja Jenkins z Docker Hub
-    * [06 - Integracja Jenkins i Docker Hub](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/06-Integracja-Jenkins-i-Docker-Hub.md)
+    * [06 - Integracja Jenkins z Docker Hub](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/06-Integracja-Jenkins-z-Docker-Hub.md)
 6. Intrgracja Jenkins z Docker Swarm
     * [07 - Integracja Jenkins z Docker Swarm](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/07-Integracja-Jenkins-z-Docker-Swarm.md)
     * [08 - Jenkins i start stack](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/08-Jenkins-i-start-stack.md)
