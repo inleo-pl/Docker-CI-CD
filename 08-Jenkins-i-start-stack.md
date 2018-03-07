@@ -28,11 +28,13 @@ Cmentarna-Polka-Deploy -> Konfiguruj -> Kroki budowania -> Dodaj krok budowania
     docker stack rm jenkins
     docker stack deploy -c /var/lib/jenkins/workspace/Cmentarna-Polka-Deploy/docker-compose.yml jenkins
 ```
+Powołaj vizualizer na master01:
+```
+docker service rm viz
+sudo docker service create --name=viz --publish=8090:8080/tcp --constraint=node.role==manager -e DOCKER_HOST="10.0.0.3:4243"   dockersamples/visualizer
+```
 Wykonaj git push na gitlab w katalogu repozytorium:
 ```
 git add . && git commit -m "change" && git push -u origin master
 ```
-Powołaj vizualizer:
-```
-sudo docker service create --name=viz --publish=8090:8080/tcp --constraint=node.role==manager -e DOCKER_HOST="10.0.0.3:4243"   dockersamples/visualizer
-```
+
