@@ -4,7 +4,7 @@ version: '3.1'
 
 services:
   app:
-    image: inleo/jenkins:latest
+    image: [nazwa repo]/[obraz]:latest
     ports:
       - "8080:80"
     deploy:
