@@ -15,7 +15,7 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 
 ## Agenda
 
-1. Co to jest Continous Deployment i Continuous Integration, po co wymyślono CI/CD
+1. Co to jest Continous Deployment i Continuous Integration, po co wymyślono CI/CD?
     * [01 - Połączenie](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/01-Polaczenie.md)
     * [02 - Przygotowanie klastra](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/02-Przygotowanie-klastra.md)
 2. Jenkins
