@@ -1,6 +1,6 @@
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 
-# Warsztaty - Docker CI/CD
+# Warsztat - Docker CI/CD
 Repozytorium plików do jedniodniowego warsztatu Docker Continuous Integration (CI) / Continuous Delivery (CD).
 
 ## Dla kogo?
