@@ -29,6 +29,8 @@ Wymagana jest wiedza związana z platformą Docker oraz systemami Linux/Unix. Uc
 6. Intrgracja Jenkins z Docker Swarm
     * [07 - Integracja Jenkins z Docker Swarm](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/07-Integracja-Jenkins-z-Docker-Swarm.md)
     * [08 - Jenkins i start stack](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/08-Jenkins-i-start-stack.md)
+7. Monitoring
+    * [09 - Swarmprom (Prometheus, Grafana, cAdvisor, Node Exporter, Alert Manager, Unsee)](https://github.com/inleo-pl/Warsztaty-Docker-CI-CD/blob/master/09-Swarmprom.md)
 
 ## Kiedy, co i jak?
 
