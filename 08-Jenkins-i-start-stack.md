@@ -24,14 +24,14 @@ Zamin zrobimy git push wejdzmy na jenkins:
 ```
 Cmentarna-Polka-Deploy -> Konfiguruj -> Kroki budowania -> Dodaj krok budowania
   -> Execute shell:
-    export DOCKER_HOST="tcp://[master-wew-IP]:4243"
+    export DOCKER_HOST="tcp://[manager01-wew-IP]:4243"
     docker stack rm jenkins
     docker stack deploy -c /var/lib/jenkins/workspace/Cmentarna-Polka-Deploy/docker-compose.yml jenkins
 ```
-Powołaj vizualizer na master01:
+Powołaj vizualizer na manager01:
 ```
 docker service rm viz
-sudo docker service create --name=viz --publish=8090:8080/tcp --constraint=node.role==manager -e DOCKER_HOST="10.0.0.3:4243"   dockersamples/visualizer
+sudo docker service create --name=viz --publish=8090:8080/tcp --constraint=node.role==manager -e DOCKER_HOST="[manager01-wew-IP]:4243"   dockersamples/visualizer
 ```
 Wykonaj git push na gitlab w katalogu repozytorium:
 ```
