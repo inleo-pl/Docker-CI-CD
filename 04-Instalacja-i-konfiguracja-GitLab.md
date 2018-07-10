@@ -42,9 +42,8 @@ Nowy projekt (repozytorium) towrzymy poprzez kliknięcie na plus (+) w prawym g�
 Następnie podłączamy się do naszego repozytorium z serwera GitLab:
 ```
 git --version
-git config --global user.name "Administrator"
+git config --global user.email "root"
 git clone http://gitlab/root/Cmentarna-Polka.git
-git config --global user.email "admin@example.com"
 cd Cmentarna-Polka
 touch README.md
 git add README.md
