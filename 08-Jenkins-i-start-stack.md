@@ -24,7 +24,7 @@ Zamin zrobimy git push wejdzmy na jenkins:
 ```
 Cmentarna-Polka-Deploy -> Konfiguruj -> Kroki budowania -> Dodaj krok budowania
   -> Execute shell:
-    export DOCKER_HOST="tcp://10.0.0.5:4243"
+    export DOCKER_HOST="tcp://[master-wew-IP]:4243"
     docker stack rm jenkins
     docker stack deploy -c /var/lib/jenkins/workspace/Cmentarna-Polka-Deploy/docker-compose.yml jenkins
 ```
