@@ -17,7 +17,9 @@ http://gitlab
 ```
 Ustawmy licencję:
 ```
-Admin -> License -> Upload New License
+Admin Area (klucz francuski, za menu po lewej stronie na górze) 
+  -> License 
+  -> Upload New License
 ```
 Konfiguracja użytkownika dla Jenkinsa:
 ```
