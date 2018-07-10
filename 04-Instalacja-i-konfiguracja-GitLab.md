@@ -5,7 +5,7 @@ https://about.gitlab.com/free-trial/
 Na serwerze GitLab:
 ```
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y upgrade
 sudo apt-get install -y curl openssh-server ca-certificates
 sudo apt-get install -y postfix
 sudo curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash 
