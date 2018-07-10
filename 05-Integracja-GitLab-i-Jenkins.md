@@ -55,7 +55,7 @@ http://gitlab
 
 Otwórz projekt Cmentarna-Polka -> Settings -> Integration -> Project services -> Jenkins CI (przewiń w dół aby znaleźć na liście)
   -> Active
-  -> Jenkins url: http://jenkins-dockercicdlab-xh40fwo2.srv.ravcloud.com:8080/
+  -> Jenkins url: http://[jenkins]:8080/
   -> Project name: Cemntarna-Polka-Deploy
 ```
 Test działania poprzez dodanie pliku do naszego repo z serwera gitlab:
