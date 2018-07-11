@@ -35,7 +35,7 @@ http://jenkins:8080
 
 Cmentarna-Polka-Deploy -> Konfiguruj -> Dodaj krok budowania
   -> Docker Build and Publish
-    -> Repository name: [użytkownik-z-dodcker-hub]/[nazwa-rrepo]
+    -> Repository name: [użytkownik-z-dodcker-hub]/[nazwa-repo]
     -> Tag: ${BUILD_NUMBER}
     -> Registry credentials:
       -> Add: Jenkins
