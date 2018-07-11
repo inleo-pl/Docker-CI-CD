@@ -14,7 +14,7 @@ http://jenkins:8080
 
 Cmentarna-Polka-Deploy -> Konfiguruj -> Kroki budowania
   -> Docker Build and Publish
-    -> Docker Host URI: tcp://10.0.0.5:4243
+    -> Docker Host URI: tcp://[manager-ip]:4243
 ```
 Uruchom zadanie, podczas wejdz na manager01:
 ```
