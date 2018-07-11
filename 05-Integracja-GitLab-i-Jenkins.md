@@ -30,7 +30,7 @@ Zarządzaj Jenkinsem -> Skonfiguruj system -> GitLab
 Dodanie projektu w Jenkins:
 ```
 Nowy projekt
-  -> Nazwa: Cemntarna-Polka-Deploy
+  -> Nazwa: Cmentarna-Polka-Deploy
   -> Ogólny projekt
     -> Repozytorium kodu
       -> Git
@@ -56,7 +56,7 @@ http://gitlab
 Otwórz projekt Cmentarna-Polka -> Settings -> Integration -> Project services -> Jenkins CI (przewiń w dół aby znaleźć na liście)
   -> Active
   -> Jenkins url: http://[jenkins]:8080/
-  -> Project name: Cemntarna-Polka-Deploy
+  -> Project name: Cmentarna-Polka-Deploy
 ```
 Test działania poprzez dodanie pliku do naszego repo z serwera gitlab:
 ```
