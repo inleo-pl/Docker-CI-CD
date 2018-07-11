@@ -53,10 +53,13 @@ Nowy projekt w GitLab w połączeniu z Jenkinsem:
 ```
 http://gitlab
 
+Admin Area -> Settings -> Outbound requests -> Expand -> Allow requests to the local network from hooks and services -> Save Changes
+
 Otwórz projekt Cmentarna-Polka -> Settings -> Integration -> Project services -> Jenkins CI (przewiń w dół aby znaleźć na liście)
   -> Active
   -> Jenkins url: http://[jenkins]:8080/
   -> Project name: Cmentarna-Polka-Deploy
+  -> login: [gitlab-user-zalozony-w-jankins]
 ```
 Test działania poprzez dodanie pliku do naszego repo z serwera gitlab:
 ```
