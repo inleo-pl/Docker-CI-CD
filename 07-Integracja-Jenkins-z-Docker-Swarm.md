@@ -3,9 +3,9 @@ Przekonfiguruj węzeł manager01:
 sudo vi /lib/systemd/system/docker.service
   -> Zmień linię "ExecStart=/usr/bin/dockerd -H..." na:
   -> ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:4243
+sudo export DOCKER_HOST="tcp://0.0.0.0:4243"
 sudo systemctl daemon-reload
 sudo service docker restart
-sudo export DOCKER_HOST="tcp://0.0.0.0:4243"
 sudo docker ps
 ```
 Przekonfiguruj Jenkinsa:
