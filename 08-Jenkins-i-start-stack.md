@@ -25,8 +25,8 @@ Zamin zrobimy git push wejdzmy na jenkins:
 Cmentarna-Polka-Deploy -> Konfiguruj -> Kroki budowania -> Dodaj krok budowania
   -> Execute shell:
     export DOCKER_HOST="tcp://[manager01-wew-IP]:4243"
-    docker stack rm jenkins
-    docker stack deploy -c /var/lib/jenkins/workspace/Cmentarna-Polka-Deploy/docker-compose.yml jenkins
+    docker stack rm cmentarna-polka
+    docker stack deploy -c /var/lib/jenkins/workspace/Cmentarna-Polka-Deploy/docker-compose.yml cmentarna-polka
 ```
 Powołaj vizualizer na manager01:
 ```
