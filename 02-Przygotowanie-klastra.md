@@ -20,7 +20,6 @@ Na węźle worker01:
 ```
 sudo docker swarm join --token [token] [IP]:2377
 sudo docker info
-sudo docker node ls
 ```
 Uruchomienie visualizera:
 ```
