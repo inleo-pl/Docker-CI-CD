@@ -35,13 +35,13 @@ http://jenkins:8080
 
 Cmentarna-Polka-Deploy -> Konfiguruj -> Dodaj krok budowania
   -> Docker Build and Publish
-    -> Repository name: [użytkownik]/[nazwa]
+    -> Repository name: [użytkownik-z-dodcker-hub]/[nazwa-rrepo]
     -> Tag: ${BUILD_NUMBER}
     -> Registry credentials:
       -> Add: Jenkins
         -> Kind: Username with Password
-        -> Username: [użytkownik]
-        -> Password: [hasło]
+        -> Username: [użytkownik-docker-hub]
+        -> Password: [hasło-docker-hub]
         -> ID: [użytkownik]
 ```
 Na serwerze GitLab, w miejscu gdzie jest nasz kod wywołujemy:
